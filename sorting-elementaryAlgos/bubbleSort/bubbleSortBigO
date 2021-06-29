@@ -1,0 +1,4 @@
+O(n) - Best Case
+only use bubble sort if has little data
+
+O(n^2)

@@ -1,0 +1,16 @@
+What makes a good hash?
+
+1. Fast (i.e. constant time)
+2. Doesn't cluster outputs at specific indices, but distributes uniformly
+3. Deterministic (same input yields same output)
+
+
+slow hash
+-non example-
+function slowHash(key) {
+  for (var i= 0; i < 10000; i++){
+    console.log("everyday im hashing");
+  }
+  return key[0].charCodeAt(0)
+}
+

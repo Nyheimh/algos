@@ -1,0 +1,5 @@
+Big O
+
+O(n^2) - Worst case
+
+Works well with near sorted or when data is sent in live and needs to be sorted

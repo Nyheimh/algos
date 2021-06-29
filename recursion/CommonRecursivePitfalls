@@ -1,0 +1,12 @@
+Where things go wrong
+
+- No base case
+  --- This will cause the function to continue to run
+
+- Forgetting to return or returning the wrong thing!
+  --- The call stack size (stack overflow) will continue to run and call stack size will exceed. 
+  --- recursion is built on 1 and one another
+
+- Stack overflow
+  -- return wrong thing
+  -- maxium call size exceed

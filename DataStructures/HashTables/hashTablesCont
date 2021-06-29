@@ -1,0 +1,10 @@
+Intro Example
+How can we get human-readability and computer readability?
+
+The Hash Part
+
+To implement a hash table we'll be using an array.
+
+In order to look up values by key, we need a way to convert keysb into valid array indices.
+
+A function thay performs this task is called a hash function. 

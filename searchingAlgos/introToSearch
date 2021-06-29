@@ -1,0 +1,8 @@
+Javascript has search!
+
+There are many different search methods on arrays in JS:
+
+- indexOf
+- includes
+- find
+- findIndex

@@ -1,0 +1,6 @@
+Big O of Hash Tables
+(Average)
+
+Insert: O(1)
+Deletion: O(1)
+Access: O(1)

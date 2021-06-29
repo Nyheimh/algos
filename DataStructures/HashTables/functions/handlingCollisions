@@ -1,0 +1,40 @@
+Collisions
+
+Even with a large array and a great hash function, collisions are inevitable.
+
+There are many strategies for dealing with collision, but we'll focus on two:
+
+1. Separate Chaining
+2. Linear Probing
+
+
+ Separate Chaining
+
+With separate chaining, at each index our array we stores values using a more sophisticated data structure (e.g. an array or a linked list).
+
+This allows us to store multiple key-value pairs at the same index. 
+
+
+darkblue -> 4
+salmon -> 4
+
+Stored in nested array
+[["darkblue", "#00008b"],
+["salmon", "#fa8072"]
+]
+
+
+Linear Probing
+
+With linear probing, when we find a collsion, we search through the array to find the next empty slot.
+
+Unlike with separate chaining, this allows us to store a single key-value at each index. 
+
+darkblue -> 4
+salmon -> 4
+tomato -> 4
+
+Storing one thing in each position and usually looking ahead (can look backwards)
+["darkblue", "#00008b"] -> 4
+["salmon", "#fa8072"] -> 5
+["tomato", "#ff6347"] -> 6

@@ -1,0 +1,9 @@
+Keys/Values
+
+Keys
+
+- Loops through the hash table array and returns an array of keys in the table
+
+Values
+
+-Loops through the hash table array and returns an array of values in the table.

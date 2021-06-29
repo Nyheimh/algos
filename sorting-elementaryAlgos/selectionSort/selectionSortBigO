@@ -1,0 +1,5 @@
+Big O
+
+O(n^2)
+
+Better than bubble sort, minimize number of swaps

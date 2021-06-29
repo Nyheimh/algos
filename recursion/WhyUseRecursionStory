@@ -1,0 +1,46 @@
+Recursion 
+
+Once upon a time there was a boy, Martin. There was a boy training with wizards.
+
+Then there was an angry dragon, Dragon. 
+
+ONe day Martin is talking to a wizard and is given a task. The task is to talk to the dragon and im going to give you a list of numbers
+and i need you to come back and tell me if any of the numbers on the list of numbers are odd.
+
+Martin asks the dragon to see if any of the numbers on the list are odd.
+
+Dragon: Im sorry, i will only tell you the first number in that list is odd.
+
+*Martin is upset*
+
+Martin: I need to know if any of the numbers on the list are odd.
+
+Dragon: Im sorry i will only tell you one number on the list is odd. 
+
+Martin: Okay fine, what about the first number in this list.
+( [3142] 5798 6550 5914 )
+
+Dragon: it is not odd
+
+Martin: What about the number in this different list
+( [5798] 6550 5914)
+
+Dragon: it is not odd
+
+Martin: Does it again what about this number
+( [6550] 5914)
+
+Dragon: it is not odd
+
+Martin: Okay fine what about this list. 
+([5914])
+
+Dragon: it is not odd
+
+Martin: what about this list
+()
+
+Dragon: it is empty. 
+
+
+Dragon: congrats you have discovered rescursion.
